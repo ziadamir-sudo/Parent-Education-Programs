@@ -239,13 +239,12 @@ button {
 
 .read_more2 {
      display: inline-block;
-     background: #c4c4c4;
      color: #000000;
      max-width: 150px;
      height: 40px;
      line-height: 40px;
      width: 100%;
-     font-size: 17px;
+     font-size: 18px;
      text-align: center;
      font-weight: 500;
      transition: ease-in all 0.5s;
@@ -253,9 +252,10 @@ button {
 }
 
 .read_more2:hover {
-     background: #0e0b01;
-     color: #fff;
-     transition: ease-in all 0.5s;
+     background: #000000dc;
+     color: #ffffff;
+     transition: ease-in all 0.3s;
+     opacity: 0.95;
 }
 
 .img_responsive {
@@ -339,9 +339,10 @@ menu section
 
 .navigation.navbar-dark .navbar-nav .nav-link {
      padding: 0px 30px;
+     margin-left: 25px;
      color: #fff;
      font-size: 17px;
-     line-height: 20px;
+     line-height: 22px;
      font-weight: 400;
 }
 .nav-link:hover{
@@ -643,7 +644,13 @@ ul.email li i {
 }
 
 #ho_nf:hover .portfolio_text {
-     height: 240px;
+     height: 220px;
+     transition: ease-in all 0.5s;
+     padding: 40px 40px;
+}
+
+#ho_nf:hover .portfolio_text2 {
+     height: 280px;
      transition: ease-in all 0.5s;
      padding: 40px 40px;
 }
@@ -653,7 +660,7 @@ ul.email li i {
      transition: ease-in all 0.7s;
 }
 
-.portfolio_text {
+.portfolio_text, .portfolio_text2 {
      cursor: pointer;
      position: absolute;
      transition: ease-in all 0.5s;
@@ -687,7 +694,7 @@ ul.email li i {
      color: #fff;
 }
 
-.portfolio_text h3 {
+.portfolio_text h3, .portfolio_text2 h3 {
      color: #0c0c0d;
      font-size: 24px;
      line-height: 30px;
@@ -695,7 +702,7 @@ ul.email li i {
      padding-bottom: 15px;
 }
 
-.portfolio_text p {
+.portfolio_text p, .portfolio_text2 p {
      color: #031330;
      font-size: 17px;
      line-height: 30px;
@@ -1048,7 +1055,7 @@ ul.social_icon li a:hover {
 
 /* --- Our Vision Section --- */
 .vision-section {
-     background: #eb3c3c;
+     background: #ffb055;
      /* or #FFD700 for gold, or #FFF7CC for a softer yellow */
      padding: 70px 0;
 }
@@ -1082,6 +1089,14 @@ ul.social_icon li a:hover {
      font-weight: bold;
      color: #222;
      margin-bottom: 24px;
+     line-height: 1.1;
+}
+
+.vision-content h3 {
+     font-size: 25px;
+     font-weight: bold;
+     color: #222;
+     margin-bottom: 15px;
      line-height: 1.1;
 }
 
